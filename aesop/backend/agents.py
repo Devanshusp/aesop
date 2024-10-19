@@ -1,7 +1,10 @@
 import os
 import google.generativeai as genai
 
-
+def video_agent():
+	pass
+def audio_agent():
+	pass
 
 def image_agent(prompt_text):
 	genai.configure(api_key=os.environ['API_KEY'])
