@@ -9,7 +9,7 @@ collection = client.get_or_create_collection(name="stories", embedding_function=
 
 def add_document_embeddings(document:str):
 	# TODO: get api key from google and load from env
-	
+	  
 	collection.add_document(document)
 
 
