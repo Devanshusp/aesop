@@ -74,7 +74,6 @@
 .coverage.*
 .dmypy.json
 .eggs/
-.env
 .hypothesis/
 .installed.cfg
 .ipynb_checkpoints
@@ -137,3 +136,8 @@ var/
 venv.bak/
 venv/
 wheels/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
+node_modules
