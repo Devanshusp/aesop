@@ -43,7 +43,7 @@ def get_latest(n:int):
 	with rx.session() as session:
 		res = session.query(StoryCard)\
 		.order_by(StoryCard.date).limit(n)
-		return list(map(row_to_story, res))
+		return res
 
 def get_count():
 	with rx.session() as session:
